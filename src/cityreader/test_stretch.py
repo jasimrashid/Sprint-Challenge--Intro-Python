@@ -29,6 +29,8 @@ class CityreaderTests(unittest.TestCase):
 
     inp = cityreader_stretch(45, -100, 32, -120, self.cities)
 
+    # breakpoint()
+
     self.assertEqual(len(inp), len(expected))
 
     for i in range(len(inp)):

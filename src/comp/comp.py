@@ -26,12 +26,7 @@ humans = [
 print("Starts with D:")
 
 a = []
-# for i in humans: 
-#     if i.name[0] == 'D': a.append(i.name)
-
-# a.append([i.name for i in humans if i.name[0] == 'D'])
 a = [i.name for i in humans if i.name[0] == 'D']
-# a = ([i.name] for i in humans if i.name[0] == 'D')
 
 print(a)
 
@@ -84,5 +79,3 @@ import math
 h = []
 h = [math.sqrt(i.age) for i in humans]
 print(h)
-
-# breakpoint()
